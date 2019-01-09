@@ -14,7 +14,7 @@
 #
 ### Then, if you `cat saved.sh`, you will find the result in it. You may `source ./saved.sh` to use the array var `$msgArray` in your script.
 ### If you wanna unset the sourced `$msgArray` after used, please do `unset -v msgArray`.
-### I will use this script to find all the ids in a msgid text file in [matchId.sh](../matchId/).
+### I will use this script to find all the ids in a msgid text file in [matchId.sh](../matchIds/).
 #
 #### This has been used for Tibetan localization of Drupal and [Shanti UVA](https://mandala-dev.shanti.virginia.edu). 
 #### Please file an issue if you find a problem, thanks.
