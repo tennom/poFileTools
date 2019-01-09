@@ -1,13 +1,10 @@
 # Bash scripts for manupulation of GNU Gettext po files. #
 
 ## Purposes ##
-If you have a big localization work (here we have Drupal), and multiple translators, these tools can do the followings:
-1. Find all the msgids in a po file.
-```
-./idFinder.sh [transtor]/[batch number]/[module name].[locale name].po 
+If you have to manage a localization work based on GetText, and multiple translators, these tools can be helful.
+1. Find all the msgids in a po file, please use [idFinder.sh.](idFinder/)
+2. Get translated msgstrs from a po file, please use [findMsgstr.sh.](findMsgstr/)
+3. To maintain all the localization work in Sqlite, please use [scripts in get save str2sqlite.](get\ save\ str2sqlite/)
 
-		i.e. ./idFinder.sh tashi/20/contact.bo.po (Tibetan localization)
-```
-This will creat an id file 'contact.txt'
 
-# still writing up ...#
+# Please refer to each script and their notes for details #
