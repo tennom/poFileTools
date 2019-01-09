@@ -8,12 +8,10 @@
 # Usage
 ### Download or clone the script to a folder `cd` to that folder
 ### Please open the script and read how you create the database and other info
-`
+```bash
 ./saveMsgstr.sh 'msgid' 'msgstr' 'msgctx' 'module name'   
-`
-`
 ./getMsgstr.sh 'msgid' 'msgctx'  
-`
+```
 
 ## This has been used for Tibetan localization of Drupal and [Shanti UVA](https://mandala-dev.shanti.virginia.edu). 
 #### Please file an issue if you find a problem, thanks.
